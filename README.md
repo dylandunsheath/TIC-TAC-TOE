@@ -72,15 +72,22 @@ The CPU difficulty is saved in `CPU Level.dat` and persists between sessions.
 
 ### Option 1: Executable Version
 1. Extract all files from the `.zip` archive.  
-2. Run `Tic-Tac-Toe.jar`.  
-3. A `CPU Level.dat` file will be created alongside the JAR.  
+2. Run `Tic-Tac-Toe.jar`.
+4. A `CPU Level.dat` file will be created alongside the JAR.  
 
 ### Option 2: Source Code
 1. Extract all files.  
 2. Compile the code using your own Java compiler.  
-   - Main file: `TicTacToeMain.java`  
-3. Run the program.  
-4. A `CPU Level.dat` file will be created in the source directory.  
+   - Main file: `TicTacToeMain.java`
+      - Make sure you have the Java JDK installed (not just the JRE) since you need javac. Then run the command:
+        ```sh
+        javac TicTacToeMain.java
+        ```
+3. Run the program.
+   ```sh
+     java TicTacToeMain
+   ```
+5. A `CPU Level.dat` file will be created in the source directory.  
 
 ---
 
